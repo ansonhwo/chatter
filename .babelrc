@@ -1,5 +1,3 @@
 {
-  "presets": [
-    "babel-preset-expo"
-  ]
+  "presets": ["react-native"]
 }
