@@ -1,2 +1,2 @@
-# spotter
-A personal weightlifting assistant.
+# chatter
+A chat app of some sorts.
