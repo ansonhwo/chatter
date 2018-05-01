@@ -3,13 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bcrypt": "^2.0.1",
     "body-parser": "^1.18.2",
     "bootstrap": "^4.1.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.3",
+    "express-session": "^1.15.6",
     "history": "^4.7.2",
-    "knex": "^0.14.6",
     "moment": "^2.22.1",
-    "pg": "^7.4.1",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-redux": "^5.0.7",
@@ -22,24 +27,23 @@
     "redux-saga": "^0.16.0",
     "redux-thunk": "^2.2.0",
     "reselect": "^3.0.1",
+    "rethinkdb": "^2.3.3",
     "styled-components": "^3.2.6"
   },
   "devDependencies": {
+    "codelyzer": "^4.3.0",
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
     "nodemon": "^1.17.3",
-    "prettier": "1.12.1"
+    "prettier": "1.12.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "migrate": "knex migrate:latest",
-    "migrate:make": "knex migrate:make",
-    "rollback": "knex migrate:rollback",
-    "seed:make": "knex seed:make",
-    "seed:run": "knex seed:run",
     "test": "react-scripts test --env=jsdom",
     "watch": "nodemon index.js"
   }

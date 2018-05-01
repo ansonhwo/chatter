@@ -1,0 +1,34 @@
+2018-04-30T20:10:39.319166480 0.351196s notice: Recursively removing directory /home/ansonhwo/Documents/chatter/rethinkdb_data/tmp
+2018-04-30T20:10:39.354048583 0.386076s notice: Initializing directory /home/ansonhwo/Documents/chatter/rethinkdb_data
+2018-04-30T20:10:39.354099810 0.386127s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/ansonhwo/Documents/chatter/rethinkdb_data' did not already exist or is empty.)
+2018-04-30T20:10:39.354121311 0.386149s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-04-30T20:10:39.355321616 0.387350s notice: Running on Linux 4.13.0-39-generic x86_64
+2018-04-30T20:10:39.355351142 0.387379s notice: Loading data from directory /home/ansonhwo/Documents/chatter/rethinkdb_data
+2018-04-30T20:10:39.709857380 0.741886s info: Automatically using cache size of 5955 MB
+2018-04-30T20:10:39.710625330 0.742653s notice: Listening for intracluster connections on port 29015
+2018-04-30T20:10:39.711360580 0.743388s notice: Listening for client driver connections on port 28015
+2018-04-30T20:10:39.711468745 0.743496s notice: Listening for administrative HTTP connections on port 8080
+2018-04-30T20:10:39.711474445 0.743502s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-04-30T20:10:39.711477171 0.743505s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-04-30T20:10:39.711482385 0.743510s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-04-30T20:10:39.711484945 0.743512s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-04-30T20:10:39.711489983 0.743517s notice: Server ready, "ansonUB_pr3" 80acd1c2-1353-4611-930f-19829cc16475
+2018-04-30T20:21:42.986623104 664.018651s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-04-30T20:21:42.986696444 664.018724s notice: Shutting down client connections...
+2018-04-30T20:21:42.986751772 664.018779s notice: All client connections closed.
+2018-04-30T20:21:42.986754109 664.018782s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-04-30T20:21:42.986938813 664.018966s notice: Storage engine shut down.
+2018-04-30T20:21:50.803026066 0.215008s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2018-04-30T20:21:50.804244710 0.216227s notice: Running on Linux 4.13.0-39-generic x86_64
+2018-04-30T20:21:50.804272015 0.216254s notice: Loading data from directory /home/ansonhwo/Documents/chatter/rethinkdb_data
+2018-04-30T20:21:50.904639938 0.316622s info: Automatically using cache size of 5896 MB
+2018-04-30T20:21:50.933253051 0.345235s notice: Listening for intracluster connections on port 29015
+2018-04-30T20:21:50.934618679 0.346601s notice: Listening for client driver connections on port 28015
+2018-04-30T20:21:50.934824290 0.346806s notice: Listening for administrative HTTP connections on port 8080
+2018-04-30T20:21:50.974839495 0.386821s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.0.8, ::1, 2605:e000:3ca4:8300::3, 2605:e000:3ca4:8300:91ff:59f9:a32d:424e, 2605:e000:3ca4:8300:cf01:4d0f:4d7:818b, fe80::80e3:d8f6:f0bc:cb0c%3
+2018-04-30T20:21:51.008565658 0.420548s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.0.8, ::1, 2605:e000:3ca4:8300::3, 2605:e000:3ca4:8300:91ff:59f9:a32d:424e, 2605:e000:3ca4:8300:cf01:4d0f:4d7:818b, fe80::80e3:d8f6:f0bc:cb0c%3
+2018-04-30T20:21:51.039404645 0.451387s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.0.8, ::1, 2605:e000:3ca4:8300::3, 2605:e000:3ca4:8300:91ff:59f9:a32d:424e, 2605:e000:3ca4:8300:cf01:4d0f:4d7:818b, fe80::80e3:d8f6:f0bc:cb0c%3
+2018-04-30T20:21:51.039411528 0.451393s notice: Server ready, "ansonUB_pr3" 80acd1c2-1353-4611-930f-19829cc16475
+2018-04-30T20:42:49.331627456 1258.743610s info: Table fd2d6537-9d2e-47cb-bf72-6ee59be9a66c: Starting a new Raft election for term 1.
+2018-04-30T20:42:49.331830437 1258.743812s info: Table fd2d6537-9d2e-47cb-bf72-6ee59be9a66c: Added replica on this server.
+2018-04-30T20:42:49.383580393 1258.795562s info: Table fd2d6537-9d2e-47cb-bf72-6ee59be9a66c: This server is Raft leader for term 1. Latest log index is 0.
